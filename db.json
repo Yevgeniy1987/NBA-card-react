@@ -1,0 +1,366 @@
+
+{
+  "todos": [
+    {
+      "id": "1",
+      "content": {
+        "title": "Finish writing blog post",
+        "description": "Write the final draft of the blog post and proofread it for errors."
+      },
+      "status": "todo",
+      "createdAt": "2023-04-17T09:00:00Z",
+      "updatedAt": null,
+      "priority": "regular"
+    },
+    {
+      "id": "3",
+      "content": {
+        "title": "Prepare presentation slides",
+        "description": "Create slides for the upcoming presentation and practice presenting it."
+      },
+      "status": "doing",
+      "createdAt": "2023-04-15T11:45:00Z",
+      "updatedAt": null,
+      "priority": "high"
+    },
+    {
+      "id": "4",
+      "content": {
+        "title": "Clean the house",
+        "description": "Tidy up the living room, kitchen, and bedrooms by vacuuming, dusting, and wiping down surfaces."
+      },
+      "status": "todo",
+      "createdAt": "2023-04-14T16:20:00Z",
+      "updatedAt": "2023-04-16T10:30:00Z",
+      "priority": "regular"
+    },
+    {
+      "id": "6",
+      "content": {
+        "title": "Study for final exam",
+        "description": "Review notes, textbooks, and practice problems to prepare for the upcoming final exam."
+      },
+      "status": "doing",
+      "createdAt": "2023-04-12T09:15:00Z",
+      "updatedAt": "2023-04-17T07:30:00Z",
+      "priority": "high"
+    },
+    {
+      "id": "8",
+      "content": {
+        "title": "Attend networking event",
+        "description": "Prepare a brief introduction and bring business cards to the upcoming networking event."
+      },
+      "status": "done",
+      "createdAt": "2023-04-09T18:00:00Z",
+      "updatedAt": "2023-04-09T20:30:00Z",
+      "priority": "regular"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Joe Doe",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618"
+        }
+      },
+      "phone": "010-692-6593 x09125",
+      "website": "anastasia.net",
+      "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+          "lat": "-68.6102",
+          "lng": "-47.0653"
+        }
+      },
+      "phone": "1-463-123-4447",
+      "website": "ramiro.info",
+      "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "username": "Karianne",
+      "email": "Julianne.OConner@kory.org",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990"
+        }
+      },
+      "phone": "493-170-9623 x156",
+      "website": "kale.biz",
+      "company": {
+        "name": "Robel-Corkery",
+        "catchPhrase": "Multi-tiered zero tolerance productivity",
+        "bs": "transition cutting-edge web services"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info",
+      "address": {
+        "street": "Norberto Crossing",
+        "suite": "Apt. 950",
+        "city": "South Christy",
+        "zipcode": "23505-1337",
+        "geo": {
+          "lat": "-71.4197",
+          "lng": "71.7478"
+        }
+      },
+      "phone": "1-477-935-8478 x6430",
+      "website": "ola.org",
+      "company": {
+        "name": "Considine-Lockman",
+        "catchPhrase": "Synchronised bottom-line interface",
+        "bs": "e-enable innovative applications"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz",
+      "address": {
+        "street": "Rex Trail",
+        "suite": "Suite 280",
+        "city": "Howemouth",
+        "zipcode": "58804-1099",
+        "geo": {
+          "lat": "24.8918",
+          "lng": "21.8984"
+        }
+      },
+      "phone": "210.067.6132",
+      "website": "elvis.io",
+      "company": {
+        "name": "Johns Group",
+        "catchPhrase": "Configurable multimedia task-force",
+        "bs": "generate enterprise e-tailers"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me",
+      "address": {
+        "street": "Ellsworth Summit",
+        "suite": "Suite 729",
+        "city": "Aliyaview",
+        "zipcode": "45169",
+        "geo": {
+          "lat": "-14.3990",
+          "lng": "-120.7677"
+        }
+      },
+      "phone": "586.493.6943 x140",
+      "website": "jacynthe.com",
+      "company": {
+        "name": "Abernathy Group",
+        "catchPhrase": "Implemented secondary concept",
+        "bs": "e-enable extensible e-tailers"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io",
+      "address": {
+        "street": "Dayna Park",
+        "suite": "Suite 449",
+        "city": "Bartholomebury",
+        "zipcode": "76495-3109",
+        "geo": {
+          "lat": "24.6463",
+          "lng": "-168.8889"
+        }
+      },
+      "phone": "(775)976-6794 x41206",
+      "website": "conrad.com",
+      "company": {
+        "name": "Yost and Sons",
+        "catchPhrase": "Switchable contextually-based project",
+        "bs": "aggregate real-time technologies"
+      }
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "img": "./img/avatar 2/Avatar 2.webp",
+      "title": "Avatar: The Way of Water",
+      "country": "USA",
+      "year": "2022",
+      "genre": "Comedy",
+      "producer": "James Cameron",
+      "mainActor": "Sam Worthington",
+      "description": "",
+      "rate": 7.7,
+      "createdAt": "08.07.2023, 23:45:30",
+      "updatedAt": "08.07.2023, 23:48:34"
+    },
+    {
+      "id": 2,
+      "img": "./img/avatar 2/Avatar 2.webp",
+      "title": "BAvatar: The Way of Water",
+      "country": "USA",
+      "year": "2022",
+      "genre": "science fiction",
+      "producer": "James Cameron",
+      "mainActor": "Sam Worthington",
+      "description": "",
+      "rate": 7.7,
+      "createdAt": "08.07.2023, 23:45:30",
+      "updatedAt": "08.07.2023, 23:48:34"
+    },
+    {
+      "id": 3,
+      "img": "./img/avatar 2/Avatar 2.webp",
+      "title": "CAvatar: The Way of Water",
+      "country": "USA",
+      "year": "2022",
+      "genre": "science fiction",
+      "producer": "James Cameron",
+      "mainActor": "Sam Worthington",
+      "description": "",
+      "rate": 7.7,
+      "createdAt": "08.07.2023, 23:47:12",
+      "updatedAt": "08.07.2023, 23:48:27"
+    },
+    {
+      "img": "./img/terminator/screen-5.webp",
+      "title": "e",
+      "country": "z",
+      "year": "3",
+      "genre": "Comedy",
+      "producer": "",
+      "mainActor": "",
+      "description": "",
+      "createdAt": "08.07.2023, 23:47:12",
+      "updatedAt": "08.07.2023, 23:48:34",
+      "id": 4
+    },
+    {
+      "img": "",
+      "title": "",
+      "country": "",
+      "year": "",
+      "genre": "Action",
+      "producer": "",
+      "mainActor": "",
+      "description": "",
+      "createdAt": "09.07.2023, 13:04:20",
+      "updatedAt": "09.07.2023, 13:04:20",
+      "id": 5
+    },
+    {
+      "img": "",
+      "title": "",
+      "country": "",
+      "year": "1987",
+      "genre": "fantastic",
+      "producer": "",
+      "mainActor": "",
+      "description": "",
+      "createdAt": "09.07.2023, 15:54:29",
+      "updatedAt": "09.07.2023, 15:54:29",
+      "id": 6
+    }
+  ],
+  "cards":[
+    {
+      "id":"1",
+      "img":"./img/Raptors.webp",
+      "name": "Raptors",
+      "country": "Canada",
+      "city": "Toronto",
+      "champions": 1,
+      "currentPosition": 9,
+      "minTicketPrice": 120,
+      "minPriceForUkr": 65,
+      "fanRate": 3.5
+    },
+    {
+      "id": 2,
+      "img": "./img/Lakers.webp",
+      "name": "Lakers",
+      "country": "USA",
+      "city": "Los-Angeles",
+      "champions": 17,
+      "currentPosition": 7,
+      "minTicketPrice": 95,
+      "fanRate": 4
+    },
+    {
+      "id": 3,
+      "img": "./img/Celtics.webp",
+      "name": "Celtics",
+      "country": "USA",
+      "city": "Boston",
+      "champions": 12,
+      "currentPosition": 2,
+      "minTicketPrice": 80,
+      "minPriceForUkr": 50,
+      "fanRate": 5
+    }
+  ]
+}

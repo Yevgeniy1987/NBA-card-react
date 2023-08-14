@@ -1,7 +1,7 @@
 export const cards = [
   {
     "id":"1",
-    "img":"./img/Raptors.webp",
+    "img":"./assets/img/Raptors.webp",
     "teamName": "Raptors",
     "country": "Canada",
     "city": "Toronto",
@@ -13,7 +13,7 @@ export const cards = [
   },
   {
     "id": 2,
-    "img": "./img/Lakers.webp",
+    "img": "./assets/img/Lakers.webp",
     "teamName": "Lakers",
     "country": "USA",
     "city": "Los-Angeles",
@@ -24,7 +24,7 @@ export const cards = [
   },
   {
     "id": 3,
-    "img": "./img/Celtics.webp",
+    "img": "./assets/img/Celtics.webp",
     "teamName": "Celtics",
     "country": "USA",
     "city": "Boston",

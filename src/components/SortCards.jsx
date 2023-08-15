@@ -1,4 +1,4 @@
-import { smartSort } from "../helpers/smartSort,jx";
+import { smartSort } from "../helpers/smartSort.js";
 
 export function SortCards({ setCards }) {
   const handleSort = (e) => {

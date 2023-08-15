@@ -5,7 +5,7 @@ export function Card({ card }) {
   }`;
 
   return (
-    <div class={cardClassName}>
+    <div className={cardClassName}>
       <img className="team-icon" src={card.img} alt="team-icon" />
       <div className="nba-card-content">
         <h2 className="team-card-content-text">Team name:{card.teamName}</h2>

@@ -1,4 +1,4 @@
-export const cards = [
+export const clubs = [
   {
     "id":"1",
     "img":"./assets/img/Raptors.webp",

@@ -1,19 +1,28 @@
-import { CardList } from "./components/CardList";
-import { SearchCard } from "./components/SearchCard";
-import { SortCards } from "./components/SortCards";
-import { cards as cardsData } from "./data/cards";
-import "./index.css";
 import { useState } from "react";
 
+import { clubs as clubsData } from "./data/cards";
+
+import { CardList } from "./components/CardList";
+import { SearchBar } from "./components/SearchBar";
+import { SortCards } from "./components/SortCards";
+
+import "./index.css";
+
+
 function App() {
-  const [cards, setCards] = useState(cardsData);
+  const [clubs, setClubs] = useState(clubsData);
   return (
+
     <main>
       <div className="container content-align">
         <h1 className="nba-title">NBA favorite six</h1>
-        <SortCards setCards={setCards} />
+
+        <SortCards setClubs={setClubs} />
+
         <div className="top-bar">
-          <SearchCard setCards={setCards} />
+
+          <SearchBar setClubs={setClubs} />
+
           <div className="tile-actions" id="tile-actions">
             <button className="tile-action" data-action="one-clm">
               &#8801;
@@ -27,7 +36,8 @@ function App() {
           </div>
         </div>
 
-        <CardList cards={cards} />
+        <CardList cards={clubs} />
+
       </div>
     </main>
   );

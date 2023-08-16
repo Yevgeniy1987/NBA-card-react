@@ -1,10 +1,10 @@
 import { smartSort } from "../helpers/smartSort.js";
 
-export function SortCards({ setCards }) {
+export function SortCards({ setClubs }) {
   const handleSort = (e) => {
     const [key, order] = e.target.value.split("/");
 
-    setCards((cards) => smartSort(cards, key, order));
+    setClubs((clubs) => smartSort(clubs, key, order));
   };
   return (
     <select name="orderBy" onChange={(e) => handleSort(e)}>
